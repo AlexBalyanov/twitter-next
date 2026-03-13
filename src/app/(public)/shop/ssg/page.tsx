@@ -6,7 +6,7 @@ const SsgPage = async () => {
   const products = await response.json() as IProduct[]
 
   return (
-    <div>
+    <div className="flex flex-wrap gap-3">
       {products.map(product =>
         <ProductCard
           key={product.id}
