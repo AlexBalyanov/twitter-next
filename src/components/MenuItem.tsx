@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type {IMenuItem} from "@/components/menu.data";
+import type {IMenuItem} from "@/shared/data/menu.data";
 
 interface IProps {
   menuItem: IMenuItem;

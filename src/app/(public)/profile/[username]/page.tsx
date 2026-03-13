@@ -1,9 +1,12 @@
-const Profile = () => {
-  return (
-    <div>
+import Profile from "@/app/(public)/profile/[username]/Profile";
+import type {Metadata} from "next";
 
-    </div>
-  );
+export const metadata: Metadata = {
+  title: 'Profile'
+}
+
+const ProfilePage = () => {
+  return <Profile />
 };
 
-export default Profile;
+export default ProfilePage;

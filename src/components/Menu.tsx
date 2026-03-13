@@ -1,7 +1,7 @@
 'use client'
 import React from "react";
 import {usePathname} from "next/navigation";
-import {MENU} from "@/components/menu.data";
+import {MENU} from "@/shared/data/menu.data";
 import MenuItem from "@/components/MenuItem";
 
 const Menu = () => {
